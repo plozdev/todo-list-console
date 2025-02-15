@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RG7tAHdqy1E=",
+  "success": true,
+  "projectFilePath": "D:\\AH\\code\\dotnetProjects\\firstproject\\firstproject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mymym\\.nuget\\packages\\pastel\\6.0.1\\pastel.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
