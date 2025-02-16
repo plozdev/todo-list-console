@@ -28,11 +28,11 @@ namespace firstProject
         /// </summary>
         private static void header() {
             Console.WriteLine("------------------------");
-            Console.WriteLine("1. Add");
-            Console.WriteLine("2. Show");
-            Console.WriteLine("3. Check");
-            Console.WriteLine("4. Clear");
-            Console.WriteLine("5. End");
+            Console.WriteLine("1. Add a task");
+            Console.WriteLine("2. Show tasks");
+            Console.WriteLine("3. Check task");
+            Console.WriteLine("4. Clear task");
+            Console.WriteLine("5. End program");
 
             Console.Write("Enter choice: ");
             int choice;
@@ -94,7 +94,7 @@ namespace firstProject
             foreach (Tasks i in list) {
                 string title = i.getTitle();
                 bool check = i.getCheck();
-                Console.WriteLine($"{id}. {title}\tStatus: {check}");
+                Console.WriteLine($"{id}. {title,-30}Status: {check}");
                 id++;
             }
             header();
@@ -117,7 +117,7 @@ namespace firstProject
         }
         //END program
         private static void endProgram() {
-            Console.WriteLine("Thanks for using program");
+            Console.WriteLine("Thanks for using program!");
         }
 
         /// <summary>
@@ -125,7 +125,7 @@ namespace firstProject
         /// </summary>
         public static void Main()
         {
-            Console.WriteLine("Welcome to To-do List program");
+            Console.WriteLine("Welcome to To-do List program!");
             header();
         }
     }

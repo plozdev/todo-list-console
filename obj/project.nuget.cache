@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RG7tAHdqy1E=",
+  "dgSpecHash": "qD8HDDOrGfg=",
   "success": true,
-  "projectFilePath": "D:\\AH\\code\\dotnetProjects\\firstproject\\firstproject.csproj",
+  "projectFilePath": "D:\\AH\\code\\dotnetProjects\\todolistproject\\todolistproject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mymym\\.nuget\\packages\\pastel\\6.0.1\\pastel.6.0.1.nupkg.sha512"
   ],
